@@ -1,7 +1,6 @@
-import React, { createContext } from 'react';
+import React from 'react';
+import AppContext from './AppContext';
 import Section from './Section';
-
-const AppContext = createContext();
 
 const App = () => {
   const text = 'hello world';
@@ -13,4 +12,4 @@ const App = () => {
   );
 }
 
-export { App, AppContext };
+export default App;
